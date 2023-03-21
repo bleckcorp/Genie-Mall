@@ -1,13 +1,13 @@
-package com.example.geniemall;
+package com.bctech.inventoryservice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class GenieMallApplicationTests {
+class InventoryserviceApplicationTests {
 
-    @Test
-    void contextLoads() {
-    }
+	@Test
+	void contextLoads() {
+	}
 
 }
