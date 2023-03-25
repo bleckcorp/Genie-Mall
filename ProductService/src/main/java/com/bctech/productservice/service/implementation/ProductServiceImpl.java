@@ -30,7 +30,7 @@ public class ProductServiceImpl implements ProductService {
         productRepository.save(product);
         log.info("Product {} is saved", product.getId());
     }
- @Override
+    @Override
     public List<ProductResponse> getAllProducts() {
         List<Product> products = productRepository.findAll();
 

@@ -6,11 +6,13 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 import java.math.BigDecimal;
 
 @SpringBootApplication
 @RequiredArgsConstructor
+@EnableEurekaClient
 public class ProductServiceApplication implements CommandLineRunner {
 
     private final ProductRepository productRepository;
